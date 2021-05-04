@@ -1,0 +1,19 @@
+{
+  "name": "@hithaprani/react-native-template-typeScript",
+  "version": "0.0.4",
+  "description": "React Native Template Generic App",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hithaprani/react-native-template-typeScript.git"
+  },
+  "author": "Hithaprani <code0hp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hithaprani/react-native-template-typeScript/issues"
+  },
+  "homepage": "https://github.com/hithaprani/react-native-template-typeScript#readme",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
