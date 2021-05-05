@@ -22,6 +22,8 @@ export type AppContextProps = {
   strings: stringType;
   colors: colorType;
   images: imageType;
+  currentTheme: string;
+  currentLanguage: string;
   setLanguage: (_value: string) => void;
   setAppTheme: (_value: string) => void;
 };
@@ -30,6 +32,8 @@ export const AppContext = createContext<AppContextProps>({
   strings: EnglishStrings,
   colors: lightColors,
   images: lightImages,
+  currentTheme: '',
+  currentLanguage: '',
   setLanguage: (_value: string) => {},
   setAppTheme: (_value: string) => {},
 });
@@ -67,6 +71,8 @@ export const AppProvider: React.FC = props => {
     <AppContext.Provider
       value={{
         strings: strings(),
+        currentTheme: appTheme,
+        currentLanguage: language,
         colors: appTheme === 'light' ? lightColors : darkColors,
         images: appTheme === 'light' ? lightImages : darkImages,
         setLanguage: (value: string) => {

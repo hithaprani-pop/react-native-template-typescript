@@ -11,7 +11,7 @@ import { useAppData } from '../../Providers/AppConfig';
 import { headerStyles } from './Header.styles';
 
 type HeaderProps = {
-  subContainerStyle: ViewStyle;
+  subContainerStyle?: ViewStyle;
   onBackpress?: () => void;
   title?: string;
   titleStyle?: TextStyle;

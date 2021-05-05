@@ -4,7 +4,7 @@
 
 `npx react-native init MyTestApp --template @hithaprani/react-native-template-typeScript`
 
-will generate a new reac-native project whith following things
+will generate a new reac-native typescript project whith following things
 
 - folder structure
 - Most used packages like net-info, device-info, asyncstorage

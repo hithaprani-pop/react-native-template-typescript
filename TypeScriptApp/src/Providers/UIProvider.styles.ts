@@ -13,6 +13,8 @@ export const uiProviderStyles = (colors: colorType) => {
       backgroundColor: colors.SpinnerBackgroud,
       justifyContent: 'center',
       alignItems: 'center',
+      zIndex: 5000,
+      elevation: 5000,
     },
     messageStyle: {
       fontSize: 14,
