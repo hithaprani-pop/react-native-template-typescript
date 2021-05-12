@@ -2,7 +2,7 @@
 
 ## Usage
 
-`npx react-native init MyTestApp --template @hithaprani/react-native-template-typeScript`
+`npx react-native init MyTestApp --template @hithaprani/react-native-template-typescript`
 
 will generate a new reac-native typescript project whith following things
 
