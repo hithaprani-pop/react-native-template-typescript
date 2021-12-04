@@ -1,0 +1,12 @@
+<resources>
+    <color name="boot_gradient_start">#1d5ca4</color>
+    <color name="boot_gradient_end">#00d4ff</color>
+    <color name="default_text">#000000</color>
+    <color name="edit_text_color">#000000</color>
+    <color name="text_color_primary">#000000</color>
+    <color name="text_color_secondary">#000000</color>
+    <color name="text_color_tertiary">#000000</color>
+    <color name="text_color_primaryInverse">#ffffff</color>
+    <color name="text_color_secondaryInverse">#ffffff</color>
+    <color name="text_color_tertiaryInverse">#ffffff</color>
+</resources>

@@ -1,14 +1,18 @@
-import React from 'react';
-import { Navigation } from './Navigation/Navigation';
-import { AppProvider } from './Providers/AppConfig';
-import { UIProvider } from './Providers/UIProvider';
-
+import React, {useEffect} from 'react';
+import {Text} from 'react-native';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {Testvd} from '@components/Ttest';
+import RNBootSplash from 'react-native-bootsplash';
 export const App = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      RNBootSplash.hide({fade: true});
+    }, 5000);
+  }, []);
   return (
-    <AppProvider>
-      <UIProvider>
-        <Navigation />
-      </UIProvider>
-    </AppProvider>
+    <SafeAreaProvider>
+      <Text>dsmkl</Text>
+      <Testvd />
+    </SafeAreaProvider>
   );
 };

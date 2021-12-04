@@ -1,5 +1,4 @@
 {
-  "name": "TypeScriptApp",
-  "displayName": "TypeScriptApp",
-  "environment": "DEV"
+  "name": "typescriptapp",
+  "displayName": "typescriptapp"
 }

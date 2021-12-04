@@ -1,5 +1,5 @@
 module.exports = {
-  placeholderName: "TypeScriptApp",
-  templateDir: "./TypeScriptApp",
+  placeholderName: "typescriptapp",
+  templateDir: "./typescriptapp",
   postInitScript: "./script.js",
 };

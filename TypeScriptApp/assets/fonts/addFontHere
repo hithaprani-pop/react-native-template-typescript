@@ -1,5 +1,0 @@
-Add Font files in this folder and run 
-
-npx react-native link 
-
-yarn react-native link 
